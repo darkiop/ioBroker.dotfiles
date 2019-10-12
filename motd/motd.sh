@@ -68,6 +68,14 @@ $blue_color"uptime"$close_color            `echo -e "$green_color$UP$close_color
 $blue_color"os"$close_color                `echo -e "$green_color$get_plat_data$close_color"`
 $blue_color"usage of /"$close_color        `echo -e "$green_color$root_usage% $close_color"`/ ` echo -e "$green_color$root_usage_gb$close_color"` "of" `echo -e "$green_color$root_total$close_color"`"
 
+# iobroker motd
+if [ -f ~/iobroker-dotfiles/motd/motd-iobroker.sh ]; then
+  source ~/iobroker-dotfiles/motd/motd-iobroker.sh
+else
+  # print empty line
+  echo
+fi
+
 # show updates
 echo -e "$light_blue_color"
 printf "Checking for updates ...\n\n"
