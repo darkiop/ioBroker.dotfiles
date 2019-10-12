@@ -10,11 +10,6 @@ Screenshot with Terminal https://github.com/Eugeny/terminus
 mkdir ~/dotfiles
 cd ~/dotfiles
 git clone https://github.com/darkiop/ioBroker.dotfiles.git .
-sudo ./install-applications.sh
-./install-bashrc.sh
-source ~/.bashrc
-```
-
-```
-mkdir ~/dotfiles && cd ~/dotfiles && git clone https://github.com/darkiop/ioBroker.dotfiles.git . && sudo ./install-applications.sh && ./install-bashrc.sh && source ~/.bashrc
+/install-applications.sh
+source ~/iobroker-dotfiles/bashrc
 ```
