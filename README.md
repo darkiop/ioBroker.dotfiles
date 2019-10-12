@@ -17,3 +17,13 @@ git clone https://github.com/darkiop/ioBroker.dotfiles.git .
 ./install-applications.sh
 source ~/iobroker-dotfiles/bashrc
 ```
+## DOCUMENTATION
+
+### alias
+...
+
+### motd
+...
+
+### prompt
+...
