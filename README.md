@@ -10,6 +10,6 @@ Screenshot with Terminal https://github.com/Eugeny/terminus
 mkdir ~/dotfiles
 cd ~/dotfiles
 git clone https://github.com/darkiop/ioBroker.dotfiles.git .
-/install-applications.sh
+./install-applications.sh
 source ~/iobroker-dotfiles/bashrc
 ```
