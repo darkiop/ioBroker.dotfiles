@@ -7,8 +7,8 @@ Screenshot with Terminal https://github.com/Eugeny/terminus
 
 ## INSTALL
 ```
-mkdir ~/dotfiles
-cd ~/dotfiles
+mkdir ~/iobroker-dotfiles
+cd ~/iobroker-dotfiles
 git clone https://github.com/darkiop/ioBroker.dotfiles.git .
 ./install-applications.sh
 source ~/iobroker-dotfiles/bashrc
