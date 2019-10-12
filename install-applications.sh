@@ -1,7 +1,7 @@
 #!/bin/bash
 
-sudo apt update
-sudo apt upgrade -y
-sudo apt install -y toilet bash-completion 
+apt update
+apt upgrade -y
+apt install -y toilet bash-completion 
 
 #EOF
