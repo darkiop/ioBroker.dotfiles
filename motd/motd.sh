@@ -76,9 +76,9 @@ else
   echo
 fi
 
-# show updates
+# show OS updates
 echo -e "$light_blue_color"
-printf "Checking for updates ...\n\n"
+printf "Checking for OS updates ...\n\n"
 if [ "$(which apt-get)" ]; then echo "`apt-get -s -o Debug::NoLocking=true upgrade | grep ^Inst | wc -l` updates to install." ; fi
 printf "\n"
 
