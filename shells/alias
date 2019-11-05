@@ -1,3 +1,1 @@
-# space fome alias
-#
-# ...
+alias iobl='lnav /opt/iobroker/log/iobroker.$(date +"%F").log'
