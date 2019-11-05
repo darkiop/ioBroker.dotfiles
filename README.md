@@ -3,7 +3,7 @@ Not finished yet!
 ---
 
 # ioBroker.dotfiles
-dotfiles for Bash with some enhancements for ioBroker
+dotfiles for Bash (debian) with some enhancements for ioBroker
 
 Screenshot with Terminal https://github.com/Eugeny/terminus
 
