@@ -2,6 +2,6 @@
 
 apt update
 apt upgrade -y
-apt install -y toilet bash-completion 
+apt install -y toilet bash-completion lnav
 
 #EOF
