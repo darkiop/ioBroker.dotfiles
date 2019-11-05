@@ -7,15 +7,15 @@
 #[ -z "$PS1" ] && return
 
 # path
-#PATH=$PATH:~/dotfiles/bin
+PATH=$PATH:~/iobroker-dotfiles/bin
 
 # Distribute bashrc into smaller, more specific files
-#source ~/dotfiles/shells/defaults
-#source ~/dotfiles/shells/functions
-#source ~/dotfiles/shells/exports
+#source ~/iobroker-dotfiles/shells/defaults
+#source ~/iobroker-dotfiles/shells/functions
+#source ~/iobroker-dotfiles/shells/exports
 source ~/iobroker-dotfiles/shells/alias
-#source ~/dotfiles/shells/alias-git
-#source ~/dotfiles/shells/alias-docker
+#source ~/iobroker-dotfiles/shells/alias-git
+#source ~/iobroker-dotfiles/shells/alias-docker
 source ~/iobroker-dotfiles/shells/prompt
 
 # motd
