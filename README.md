@@ -23,7 +23,8 @@ source ~/iobroker-dotfiles/bashrc
 
 #### iobl
 
-use 'lnav' (http://lnav.org/) to follow the current ioBroker logfile. More information about lnav under https://wiki.ubuntuusers.de/lnav/
+use 'lnav' (http://lnav.org/) to follow the current ioBroker logfile.
+More information about lnav under https://wiki.ubuntuusers.de/lnav/
 
 ### motd
 
